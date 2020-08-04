@@ -3,8 +3,8 @@ import { View } from 'react-native';
 
 // import { Container } from './styles';
 
-const User = () => {
-  return <View />;
-}
+export default function User({ navigation }) {
+  console.tron.log(navigation.getParam('user'));
 
-export default User;
+  return <View />
+}
